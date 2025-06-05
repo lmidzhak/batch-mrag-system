@@ -8,7 +8,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 
 from parser import load_documents
-from text_embedder import get_text_embedding
+from text_embedder import get_image_embedding
 from dotenv import load_dotenv
 
 from PIL import Image
